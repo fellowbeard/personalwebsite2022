@@ -6,6 +6,34 @@ body {
 img {
   max-width: 100%; }
 
+.vid-size {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  margin-bottom: .15rem;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+
+.vid-overlay {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  margin-bottom: .15rem;
+  border-radius: 1.25rem;
+}
+
+.card-video:hover .overlay {
+  opacity: .5;
+  border: 5px solid #f3f3f3;
+  transition: ease .2s;
+  background-color: #000000;  
+  cursor: zoom-in;
+  height: 97%;
+  
+}
+
+
 /* line 5, src/assets/scss/theme.scss */
 a, .a:hover {
   -webkit-transition: all 0.2s;
@@ -65,13 +93,15 @@ footer.footer {
 
 /* line 46, src/assets/scss/theme.scss */
 .card {
-  border: 0; }
+  border: 0;
+  overflow: hidden }
 
 /* line 47, src/assets/scss/theme.scss */
 .card-pin:hover .overlay {
   opacity: .5;
   border: 5px solid #f3f3f3;
   -webkit-transition: ease .2s;
+  border-radius: 1.25em;
   transition: ease .2s;
   background-color: #000000;
   cursor: -webkit-zoom-in;

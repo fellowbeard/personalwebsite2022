@@ -4999,6 +4999,10 @@ input[type="button"].btn-block {
           flex: 1 1 auto;
   padding: 1.25rem; }
 
+.card-video {
+  position: absolute;
+}
+
 /* line 41, node_modules/bootstrap/scss/_card.scss */
 .card-title {
   margin-bottom: 0.75rem; }

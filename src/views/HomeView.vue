@@ -8,20 +8,23 @@
         <div class="container-fluid">
           <div class="row">
             <div class="card-columns">
-              <div class="card card-pin">
-                <video width="290" height="290" autoplay loop>
-                  <source src="/docs/assets/img/memphistwirl.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              <div class="vid-size">
+                <div class="card-pin card-video">
+                  <video style="width: 100%; height: auto" autoplay loop>
+                    <source src="/docs/assets/img/memphistwirl.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <!-- <div class="vid-overlay"> -->
+                  <div class="overlay">
+                    <h2 class="card-title title">Cool Title</h2>
+                    <div class="more">
+                      <a href="post.html">
+                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        More
+                      </a>
+                    </div>
                   </div>
+                  <!-- </div> -->
                 </div>
               </div>
               <div class="card card-pin">
