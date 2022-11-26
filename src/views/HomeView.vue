@@ -9,47 +9,33 @@
           <div class="row">
             <div class="card-columns">
               <div class="vid-size">
-                <div class="card-pin card-video">
-                  <video style="width: 100%; height: auto" autoplay loop>
-                    <source src="/docs/assets/img/memphistwirl.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                  <!-- <div class="vid-overlay"> -->
-                  <div class="overlay">
-                    <h2 class="card-title title">Cool Title</h2>
-                    <div class="more">
-                      <a href="post.html">
-                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                        More
-                      </a>
+                <a href="/docs/post.html">
+                  <div class="card-pin card-video">
+                    <video style="width: 100%; height: auto" autoplay loop muted playsinline>
+                      <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                    <!-- <div class="vid-overlay"> -->
+                    <div class="overlay">
+                      <h2 class="card-title title">About Me</h2>
                     </div>
+                    <!-- </div> -->
                   </div>
-                  <!-- </div> -->
-                </div>
+                </a>
               </div>
-              <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1489743342057-3448cc7c3bb9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d284a2efbca5f89528546307f7e7b87&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              <a
+                href="https://docs.google.com/document/d/e/2PACX-1vRbhdIxlSdVrzH5QRQXfwHhiTstxLdQp5wMrBledvWIM2vawusGYipWJ3q-IRKlwTmE8qhCOrLZU1W4/pub"
+              >
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/resumememphis.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">Resum&eacute;</h2>
                   </div>
                 </div>
-              </div>
+              </a>
 
               <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1509885903707-b68568db61ed?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f11503655b51165836c2dcefa51a040&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
+                <img class="card-img" src="/docs/assets/img/skillsmemphis.png" alt="Card image" />
                 <div class="overlay">
                   <h2 class="card-title title">Cool Title</h2>
                   <div class="more">
@@ -60,39 +46,22 @@
                   </div>
                 </div>
               </div>
-              <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1485627658391-1365e4e0dbfe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=976b0db5c3c2b9932bb20e72f98f9b61&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              <a href="mailto:virgovibe@gmail.com">
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/email.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">Contact</h2>
                   </div>
                 </div>
-              </div>
-
-              <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e3cd6ce6496c9c05cbf1b6cda8be0f9&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              </a>
+              <a href="https://github.com/fellowbeard">
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/githubmemphis.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">Github</h2>
                   </div>
                 </div>
-              </div>
+              </a>
               <div class="card card-pin">
                 <img
                   class="card-img"
@@ -109,39 +78,22 @@
                   </div>
                 </div>
               </div>
-
-              <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1506706435692-290e0c5b4505?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0bb464bb1ceea5155bc079c4f50bc36a&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              <a href="https://plantfab.netlify.app/">
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/plantfabmemphis.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">PlantFab</h2>
                   </div>
                 </div>
-              </div>
-              <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1512355144108-e94a235b10af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c622d56d975113a08c71c912618b5f83&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              </a>
+              <a href="https://www.linkedin.com/in/michaelbeardy/">
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/linkedinmemphis.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">LinkedIn</h2>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
