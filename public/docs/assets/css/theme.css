@@ -10,7 +10,7 @@ img {
   position: relative;
   width: 100%;
   padding-bottom: 100%;
-  margin-bottom: .60em;
+  margin-bottom: .15em;
   overflow: hidden;
   border-radius: 1.25rem;
 }
@@ -30,10 +30,37 @@ img {
   background-color: #F3CFC6;  
   cursor: zoom-in;
   height: 97%;
-  
-
 }
 
+.wrapper {
+  position:relative;
+  width:100%;
+  max-width:1200px;
+  height:100%;
+  min-height:320px
+}
+.divtext {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding-top:13.5%;  
+  text-align:center;
+  font-weight:bold;
+  font-size:5vw;
+  color:rgb(255, 255, 255);
+  list-style: none;
+  
+}
+@media (min-width: 1200px) {
+  .divtext{
+    font-size:60px;
+  }
+}
+
+.ul-style {
+  list-style: none;
+}
 
 /* line 5, src/assets/scss/theme.scss */
 a, .a:hover {
@@ -68,7 +95,7 @@ a, .a:hover {
 
 /* line 28, src/assets/scss/theme.scss */
 footer.footer {
-  border-top: 1px solid #f1f1f1; }
+  border-top: 1px transparent }
 
 /* line 31, src/assets/scss/theme.scss */
 .nav-link, .dropdown-item {
