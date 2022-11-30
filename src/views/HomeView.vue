@@ -9,7 +9,7 @@
           <div class="row">
             <div class="card-columns">
               <div class="vid-size">
-                <a href="/docs/post.html">
+                <a href="/post">
                   <div class="card-pin card-video">
                     <video style="width: 100%; height: auto" autoplay loop muted playsinline>
                       <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />
@@ -33,11 +33,11 @@
                   </div>
                 </div>
               </a>
-              <a href="/docs/skills.html">
+              <a href="/skills">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/skillsmemphis.png" alt="Card image" />
                   <div class="overlay">
-                    <h2 class="card-title title">Skills</h2>
+                    <h2 class="card-title title">Developer Skills</h2>
                   </div>
                 </div>
               </a>
@@ -57,7 +57,7 @@
                   </div>
                 </div>
               </a>
-              <a href="/docs/videos.html">
+              <a href="/video">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/videomemphis.png" alt="Card image" />
                   <div class="overlay">

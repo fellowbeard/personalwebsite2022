@@ -1,0 +1,69 @@
+<template>
+  <div class="container">
+    <div class="video-container">
+      <div class="video">
+        <iframe
+          width="400"
+          height="240"
+          src="https://www.youtube.com/embed/XOWIdJaUIw8?controls=0&showinfo=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="400"
+          height="240"
+          src="https://player.vimeo.com/video/231585947?h=e94128b262&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?controls=0&showinfo=0"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          title="Pines Party 2016 Supercut"
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="400"
+          height="240"
+          src="https://player.vimeo.com/video/222417121?h=c238d3a716&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?controls=0&showinfo=0"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          title="Pride SF 2017 Supercut"
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="400"
+          height="240"
+          src="https://player.vimeo.com/video/233883654?h=315af7f8ab&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          title="Play With My Hair, Not My Feelings"
+        ></iframe>
+      </div>
+      <!-- <div class="video">
+      <video src="/docs/assets/img/memphisme.mp4"></video>
+    </div> -->
+    </div>
+  </div>
+</template>
+
+<script>
+var video = document.querySelectorAll("video");
+
+video.forEach((play) =>
+  play.addEventListener("click", () => {
+    play.classList.toggle("active");
+    if (play.paused) {
+      play.play();
+    } else {
+      play.pause();
+      play.currentTime = 0;
+    }
+  })
+);
+</script>
