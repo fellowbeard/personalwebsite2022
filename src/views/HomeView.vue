@@ -57,22 +57,14 @@
                   </div>
                 </div>
               </a>
-              <!-- <div class="card card-pin">
-                <img
-                  class="card-img"
-                  src="https://images.unsplash.com/photo-1518707399486-6d702a84ff00?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5bb16fa7eaed1a1ed47614488f7588d&auto=format&fit=crop&w=500&q=60"
-                  alt="Card image"
-                />
-                <div class="overlay">
-                  <h2 class="card-title title">Cool Title</h2>
-                  <div class="more">
-                    <a href="post.html">
-                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                      More
-                    </a>
+              <a href="/docs/videos.html">
+                <div class="card card-pin">
+                  <img class="card-img" src="/docs/assets/img/videomemphis.png" alt="Card image" />
+                  <div class="overlay">
+                    <h2 class="card-title title">Video Work</h2>
                   </div>
                 </div>
-              </div> -->
+              </a>
               <a href="https://plantfab.netlify.app/">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/plantfabmemphis.png" alt="Card image" />

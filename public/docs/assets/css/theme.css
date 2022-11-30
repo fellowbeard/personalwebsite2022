@@ -28,7 +28,7 @@ img {
   border: 5px solid #f3f3f3;
   transition: ease .2s;
   background-color: #F3CFC6;  
-  cursor: zoom-in;
+  cursor: auto;
   height: 97%;
 }
 
@@ -64,8 +64,8 @@ img {
 
 /* line 5, src/assets/scss/theme.scss */
 a, .a:hover {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s; }
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s; }
 
 /* line 8, src/assets/scss/theme.scss */
 .container-fluid {
@@ -130,10 +130,10 @@ footer.footer {
   border: 5px solid #f3f3f3;
   -webkit-transition: ease .2s;
   border-radius: 1.25em;
-  transition: ease .5s;
+  transition: ease .25s;
   background-color: #000000;
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in; }
+  cursor: -webkit-default;
+  cursor: default; }
 
 /* line 55, src/assets/scss/theme.scss */
 .more {

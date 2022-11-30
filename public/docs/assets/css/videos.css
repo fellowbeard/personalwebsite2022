@@ -1,0 +1,76 @@
+body {
+  background-color: #f3c6e0;
+}
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container .video {
+  height: 15rem;
+  width: 25rem;
+  margin: 5px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.video-container .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  outline: none;
+  border: none;
+  cursor: default;
+}
+
+.video-container .video video:hover {
+  transition: .2s linear;
+  transform: scale(1.3);
+}
+
+.video-container .video .active {
+  position: fixed;
+  top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 80%;
+  box-shadow: 0 0 0 100vh rgba(0,0,0,.7);
+  z-index: 1;
+}
+
+.video-container .video .active:hover {
+  transition: none;
+  transform: translate(-50%, -50%) scale(1);
+
+}
+
+/* .vid-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+} */
+  
+/* .vid-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  outline: 4px solid #fff;
+  outline-offset: -2px;
+  pointer-events: none;
+} */
+  
+/* .vid-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
