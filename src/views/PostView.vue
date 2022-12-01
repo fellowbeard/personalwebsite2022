@@ -36,9 +36,11 @@
 
                   Most recently, I attended Actualize Coding Bootcamp, where I learned the fundamentals and best
                   practices in full-stack web development in areas of project architecture, and how to effectively
-                  self-teach new technologies. Now, I pour my creative passion into software engineering. All of my past
-                  experience running a small business, and as a visual artist has refined my communication skills, and
-                  attention to detail.
+                  self-teach new technologies.
+                  <br />
+                  <br />
+                  Now, I pour my creative passion into software engineering. All of my past experience running a small
+                  business, and as a visual artist, has refined my communication skills and attention to detail.
                 </p>
               </div>
             </a>

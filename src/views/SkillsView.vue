@@ -1,21 +1,14 @@
 <template>
   <div class="navbar"></div>
   <!-- Languages -->
-  <!-- <a href="/"> -->
   <div class="section languages">
-    <!-- <div class="card card-h2">
-    <h2 class="md text-center my-2">
-      Skills
-    </h2>
-    </div> -->
-
     <div class="container flex">
       <div class="card">
-        <h4>Javascript</h4>
+        <h4>Ruby</h4>
         <i class="devicon-ruby-plain"></i>
       </div>
       <div class="card">
-        <h4>Ruby</h4>
+        <h4>Javascript</h4>
         <i class="devicon-javascript-plain"></i>
       </div>
       <div class="card">
@@ -56,18 +49,9 @@
   <footer class="footer pt-5 pb-5 text-center"></footer>
 </template>
 
+<script></script>
+
 <style scoped>
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 h1,
 h2 {
   color: white;
@@ -110,106 +94,6 @@ img {
   display: flex;
 }
 
-/* Showcase */
-.showcase {
-  height: 400px;
-  background-color: var(--primary-color);
-  color: #fff;
-  position: relative;
-}
-
-.showcase h1 {
-  font-size: 40px;
-}
-
-.showcase p {
-  margin: 20px 0;
-}
-
-.showcase .grid {
-  grid-template-columns: 55% 45%;
-  gap: 30px;
-  overflow: visible;
-}
-
-.showcase-form {
-  position: relative;
-  top: 60px;
-  height: 350px;
-  width: 400px;
-  padding: 40px;
-  z-index: 100;
-}
-
-.showcase-form .form-control {
-  margin: 30px 0;
-}
-
-.showcase-form input[type="text"],
-.showcase-form input[type="email"] {
-  border: 0;
-  border-bottom: 1px solid #b4becb;
-  width: 100%;
-  padding: 3px;
-  font-size: 16px;
-}
-
-.showcase-form input:focus {
-  outline: none;
-}
-
-.showcase::before,
-.showcase::after {
-  content: "";
-  position: absolute;
-  height: 100px;
-  bottom: -70px;
-  right: 0;
-  left: 0;
-  background: white;
-  transform: skewY(-3deg);
-  -webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
-}
-
-/* Stats */
-
-.stats {
-  padding-top: 100px;
-}
-
-.stats-heading {
-  max-width: 500px;
-  margin: auto;
-}
-
-.stats .grid h3 {
-  font-size: 35px;
-}
-
-.stats .grid p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Cli */
-
-.cli .grid {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2/ 1fr);
-}
-
-.cli .grid > *:first-child {
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
-}
-
-/* Cloud */
-.cloud .grid {
-  grid-template-columns: 4fr 3fr;
-}
-
 /* Languages */
 
 .languages .flex {
@@ -231,12 +115,6 @@ img {
   transform: scale(1.1);
 } */
 
-/* Footer */
-
-.footer .social a {
-  margin: 0 10px;
-}
-
 /* Tablets and under */
 
 @media (max-width: 768px) {
@@ -248,21 +126,6 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
-
-  .showcase {
-    height: auto;
-  }
-
-  .showcase-text {
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .showcase-form {
-    justify-self: center;
-    margin: auto;
-  }
-
   .cli .grid > *:first-child {
     grid-column: 1;
     grid-row: 1;
@@ -295,10 +158,10 @@ img {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(188, 255, 254);
   color: #333;
   border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
   padding: 20px;
   margin: 10px;
 }
@@ -307,57 +170,7 @@ img {
   background-color: rgb(255, 96, 215);
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background: var(--primary-color);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn-outline {
-  background: transparent;
-  border: 1px white solid;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
-/* Backgrounds & colored buttons */
-
-.bg-primary,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-.bg-secondary,
-.btn-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-.bg-dark,
-.btn-dark {
-  background-color: var(--dark-color);
-  color: #fff;
-}
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
-}
-
-.bg-primary a,
-.btn-primary a,
-.bg-secondary a,
-.btn-secondary a,
-.bg-dark a,
-.btn-dark a {
-  color: #fff;
-}
-/* tText sizes */
+/* Text sizes */
 
 .lead {
   font-size: 20px;
