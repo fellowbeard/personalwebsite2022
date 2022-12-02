@@ -4,8 +4,17 @@
       <div class="row justify-content-center">
         <div class="col-md-7">
           <article class="card">
-            <video style="width: 100%; height: auto" autoplay loop muted playsinline>
-              <source src="/docs/assets/img/memphisme.webm" type="video/mp4" />
+            <video
+              style="width: 100%; height: auto"
+              ref="videoRef"
+              src=""
+              autoplay="autoplay"
+              loop
+              id="vid-size"
+              muted
+              type="video/mp4"
+            >
+              <!-- <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" /> -->
               Your browser does not support the video tag.
             </video>
 
@@ -52,3 +61,17 @@
 
   <footer class="footer pt-5 pb-5 text-center"></footer>
 </template>
+
+<script>
+export default {
+  data: function () {
+    return {};
+  },
+  created: function () {},
+  methods: {},
+  mounted: function () {
+    this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
+    this.$refs.videoRef.play();
+  },
+};
+</script>

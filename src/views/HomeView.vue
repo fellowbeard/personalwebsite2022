@@ -15,6 +15,8 @@
                       autoplay="autoplay"
                       loop
                       id="vid-size"
+                      muted
+                      type="video/mp4"
                     >
                       <!-- <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" /> -->
                       Your browser does not support the video tag.
@@ -103,7 +105,7 @@ export default {
   created: function () {},
   methods: {},
   mounted: function () {
-    this.$refs.videoRef.src = "/docs/assets/img/memphisme.webm";
+    this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
     this.$refs.videoRef.play();
   },
 };
