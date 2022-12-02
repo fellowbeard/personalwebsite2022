@@ -2,24 +2,27 @@
   <div class="home">
     <main role="main">
       <section class="mt-4 mb-5">
-        <!-- <div class="container mb-4">
-          <h1 class="font-weight-bold title">Explore</h1>
-        </div> -->
         <div class="container-fluid">
           <div class="row">
             <div class="card-columns">
               <div class="vid-size">
                 <a href="/post">
                   <div class="card-pin card-video">
-                    <video style="width: 100%; height: auto" autoplay loop muted playsinline>
-                      <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />
+                    <video
+                      style="width: 100%; height: auto"
+                      ref="videoRef"
+                      src=""
+                      autoplay="autoplay"
+                      loop
+                      id="vid-size"
+                    >
+                      <!-- <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" /> -->
                       Your browser does not support the video tag.
                     </video>
-                    <!-- <div class="vid-overlay"> -->
+
                     <div class="overlay">
                       <h2 class="card-title title">About Me</h2>
                     </div>
-                    <!-- </div> -->
                   </div>
                 </a>
               </div>
@@ -99,5 +102,9 @@ export default {
   },
   created: function () {},
   methods: {},
+  mounted: function () {
+    this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
+    this.$refs.videoRef.play();
+  },
 };
 </script>
