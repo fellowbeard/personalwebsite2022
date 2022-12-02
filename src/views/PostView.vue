@@ -5,7 +5,7 @@
         <div class="col-md-7">
           <article class="card">
             <video style="width: 100%; height: auto" autoplay loop muted playsinline>
-              <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />
+              <source src="/docs/assets/img/memphisme.webm" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
