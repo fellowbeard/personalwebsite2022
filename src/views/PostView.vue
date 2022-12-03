@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-md-7">
           <article class="card">
-            <video
+            <!-- <video
               style="width: 100%; height: auto"
               ref="videoRef"
               src=""
@@ -14,7 +14,21 @@
               muted
               type="video/mp4"
             >
-              <!-- <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" /> -->
+              Your browser does not support the video tag.
+            </video> -->
+            <video
+              style="width: 100%; height: auto"
+              autoplay="autoplay"
+              loop
+              id="vid-size"
+              muted
+              playsinline
+              webkit-playsinline
+              preload="auto"
+              poster="/docs/assets/img/postermemphisme.png"
+            >
+              <source src="/docs/assets/img/memphisme.webm" type="video/webm" />
+              <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
@@ -69,9 +83,9 @@ export default {
   },
   created: function () {},
   methods: {},
-  mounted: function () {
-    this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
-    this.$refs.videoRef.play();
-  },
+  // mounted: function () {
+  //   this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
+  //   this.$refs.videoRef.play();
+  // },
 };
 </script>
