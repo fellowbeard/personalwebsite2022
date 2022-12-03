@@ -43,6 +43,14 @@
         <h4>Bootstrap</h4>
         <i class="devicon-bootstrap-plain"></i>
       </div>
+      <div class="card">
+        <h4>Firebase</h4>
+        <i class="devicon-firebase-plain"></i>
+      </div>
+      <div class="card">
+        <h4>AWS</h4>
+        <i class="devicon-amazonwebservices-original"></i>
+      </div>
     </div>
   </div>
 
