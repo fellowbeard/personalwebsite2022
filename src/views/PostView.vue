@@ -25,7 +25,6 @@
               playsinline
               webkit-playsinline
               preload="auto"
-              poster="/docs/assets/img/postermemphisme.png"
             >
               <source src="/docs/assets/img/memphisme.webm" type="video/webm" />
               <source src="/docs/assets/img/memphisme.mp4" type="video/mp4" />

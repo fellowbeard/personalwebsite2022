@@ -5013,7 +5013,7 @@ input[type="button"].btn-block {
 
 .card-video {
   position: absolute;
-  border-radius: 1.25em;
+  /* border-radius: 1.25em; */
 }
 
 /* line 41, node_modules/bootstrap/scss/_card.scss */
