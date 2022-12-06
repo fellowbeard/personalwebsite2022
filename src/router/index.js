@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import PostView from "../views/PostView.vue";
+import AboutView from "../views/AboutView.vue";
 import VideoView from "../views/VideoView.vue";
 import SkillsView from "../views/SkillsView.vue";
 
@@ -11,9 +11,9 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/post",
-    name: "post",
-    component: PostView,
+    path: "/about",
+    name: "about",
+    component: AboutView,
   },
   {
     path: "/video",

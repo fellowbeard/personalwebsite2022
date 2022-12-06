@@ -6,7 +6,7 @@
           <div class="row">
             <div class="card-columns">
               <div class="vid-size">
-                <a href="/post">
+                <a href="/about">
                   <div class="card-pin card-video">
                     <!-- <video
                       style="width: 100%; height: auto"
