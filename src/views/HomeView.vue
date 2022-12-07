@@ -72,7 +72,7 @@
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/githubmemphis.png" alt="Card image" />
                   <div class="overlay">
-                    <h2 class="card-title title">Github</h2>
+                    <h2 class="card-title title">GitHub</h2>
                   </div>
                 </div>
               </a>
@@ -92,7 +92,7 @@
                   </div>
                 </div>
               </a>
-              <a href="https://www.linkedin.com/in/michaelbeardy/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/michaelbeardy/">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/linkedinmemphis.png" alt="Card image" />
                   <div class="overlay">
