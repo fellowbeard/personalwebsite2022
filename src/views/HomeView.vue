@@ -84,7 +84,7 @@
                   </div>
                 </div>
               </a>
-              <a href="https://plantfab.netlify.app/">
+              <a target="_blank" rel="noopener noreferrer" href="https://plantfab.netlify.app/">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/plantfabmemphis.png" alt="Card image" />
                   <div class="overlay">
@@ -92,7 +92,7 @@
                   </div>
                 </div>
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/michaelbeardy/">
+              <a href="https://www.linkedin.com/in/michaelbeardy/">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/linkedinmemphis.png" alt="Card image" />
                   <div class="overlay">
