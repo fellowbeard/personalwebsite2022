@@ -1,7 +1,7 @@
 <template>
   <main role="main">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row">
         <div class="col-md-7">
           <article class="card">
             <!-- <video
@@ -88,3 +88,10 @@ export default {
   // },
 };
 </script>
+
+<style scoped>
+.row {
+  margin: auto;
+  justify-content: center;
+}
+</style>

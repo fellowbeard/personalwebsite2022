@@ -6,7 +6,7 @@
           <div class="row">
             <div class="card-columns">
               <div class="vid-size">
-                <a href="/about">
+                <a target="_blank" rel="noopener noreferrer" href="/about">
                   <div class="card-pin card-video">
                     <!-- <video
                       style="width: 100%; height: auto"
@@ -43,6 +43,8 @@
                 </a>
               </div>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://docs.google.com/document/d/e/2PACX-1vRbhdIxlSdVrzH5QRQXfwHhiTstxLdQp5wMrBledvWIM2vawusGYipWJ3q-IRKlwTmE8qhCOrLZU1W4/pub"
               >
                 <div class="card card-pin">
@@ -52,7 +54,7 @@
                   </div>
                 </div>
               </a>
-              <a href="/skills">
+              <a target="_blank" rel="noopener noreferrer" href="/skills">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/skillsmemphis.png" alt="Card image" />
                   <div class="overlay">
@@ -60,7 +62,7 @@
                   </div>
                 </div>
               </a>
-              <a href="mailto:virgovibe@gmail.com">
+              <a target="_blank" rel="noopener noreferrer" href="mailto:virgovibe@gmail.com">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/email.png" alt="Card image" />
                   <div class="overlay">
@@ -68,7 +70,7 @@
                   </div>
                 </div>
               </a>
-              <a href="https://github.com/fellowbeard">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/fellowbeard">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/githubmemphis.png" alt="Card image" />
                   <div class="overlay">
@@ -76,7 +78,7 @@
                   </div>
                 </div>
               </a>
-              <a href="/video">
+              <a target="_blank" rel="noopener noreferrer" href="/video">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/videomemphis.png" alt="Card image" />
                   <div class="overlay">
@@ -92,7 +94,7 @@
                   </div>
                 </div>
               </a>
-              <a href="https://www.linkedin.com/in/michaelbeardy/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/michaelbeardy/">
                 <div class="card card-pin">
                   <img class="card-img" src="/docs/assets/img/linkedinmemphis.png" alt="Card image" />
                   <div class="overlay">
