@@ -33,7 +33,7 @@
 
             <a href="/">
               <div class="card-body">
-                <h1 class="card-title display-4">Full-Stack Software Engineer</h1>
+                <h1 class="card-title display-4">Software Engineer</h1>
                 <p>
                   Hi, I'm Michael Beard, and I've had an exciting journey into software development.
                   <br />
