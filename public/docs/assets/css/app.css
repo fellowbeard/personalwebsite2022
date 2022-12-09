@@ -3565,7 +3565,7 @@ input[type="button"].btn-block {
 .page-item.disabled .page-link {
   color: #6c757d;
   pointer-events: none;
-  cursor: auto;
+  cursor: pointer;
   background-color: #fff;
   border-color: #dee2e6; }
 

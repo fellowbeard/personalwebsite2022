@@ -28,7 +28,7 @@ img {
   border: 5px solid #f3f3f3;
   transition: ease .2s;
   background-color: #F3CFC6;  
-  cursor: auto;
+  cursor: pointer;
   height: 97%;
 }
 
