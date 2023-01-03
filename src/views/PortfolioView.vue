@@ -74,9 +74,5 @@ export default {
   },
   created: function () {},
   methods: {},
-  // mounted: function () {
-  //   this.$refs.videoRef.src = "/docs/assets/img/memphisme.mp4";
-  //   this.$refs.videoRef.play();
-  // },
 };
 </script>
