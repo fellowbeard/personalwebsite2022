@@ -8,18 +8,6 @@
               <div class="vid-size">
                 <a target="_blank" rel="noopener noreferrer" href="/about">
                   <div class="card-pin card-video">
-                    <!-- <video
-                      style="width: 100%; height: auto"
-                      ref="videoRef"
-                      src=""
-                      autoplay="autoplay"
-                      loop
-                      id="vid-size"
-                      muted
-                      type="video/mp4"
-                    >
-                      Your browser does not support the video tag.
-                    </video> -->
                     <video
                       style="width: 100%; height: auto"
                       autoplay="autoplay"
@@ -86,11 +74,11 @@
                   </div>
                 </div>
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://plantfab.netlify.app/">
+              <a target="_blank" rel="noopener noreferrer" href="/portfolio">
                 <div class="card card-pin">
-                  <img class="card-img" src="/docs/assets/img/plantfabmemphis.png" alt="Card image" />
+                  <img class="card-img" src="/docs/assets/img/portfoliomemphis.png" alt="Card image" />
                   <div class="overlay">
-                    <h2 class="card-title title">PlantFab</h2>
+                    <h2 class="card-title title">Portfolio</h2>
                   </div>
                 </div>
               </a>

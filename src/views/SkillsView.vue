@@ -28,6 +28,14 @@
         <i class="devicon-vuejs-plain"></i>
       </div>
       <div class="card">
+        <h4>React</h4>
+        <i class="devicon-react-original"></i>
+      </div>
+      <div class="card">
+        <h4>Redux</h4>
+        <i class="devicon-redux-original"></i>
+      </div>
+      <div class="card">
         <h4>PostgreSQL</h4>
         <i class="devicon-postgresql-plain"></i>
       </div>
@@ -40,8 +48,24 @@
         <i class="devicon-html5-plain"></i>
       </div>
       <div class="card">
+        <h4>MUI</h4>
+        <i class="devicon-materialui-plain"></i>
+      </div>
+      <div class="card">
         <h4>Bootstrap</h4>
         <i class="devicon-bootstrap-plain"></i>
+      </div>
+      <div class="card">
+        <h4>npm</h4>
+        <i class="devicon-npm-original-wordmark"></i>
+      </div>
+      <div class="card">
+        <h4>styled-components</h4>
+        <i class="devicon-styledcomponents-plain"></i>
+      </div>
+      <div class="card">
+        <h4>webpack</h4>
+        <i class="devicon-webpack-plain"></i>
       </div>
       <div class="card">
         <h4>Firebase</h4>
@@ -50,6 +74,10 @@
       <div class="card">
         <h4>AWS</h4>
         <i class="devicon-amazonwebservices-original"></i>
+      </div>
+      <div class="card">
+        <h4>Heroku</h4>
+        <i class="devicon-heroku-original"></i>
       </div>
     </div>
   </div>

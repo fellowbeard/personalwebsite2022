@@ -4,18 +4,6 @@
       <div class="row">
         <div class="col-md-7">
           <article class="card">
-            <!-- <video
-              style="width: 100%; height: auto"
-              ref="videoRef"
-              src=""
-              autoplay="autoplay"
-              loop
-              id="vid-size"
-              muted
-              type="video/mp4"
-            >
-              Your browser does not support the video tag.
-            </video> -->
             <video
               style="width: 100%; height: auto"
               autoplay="autoplay"
